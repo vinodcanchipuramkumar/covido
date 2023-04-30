@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: covidoconfigmap
+data:
+  mysqlurl: "jdbc:mysql://covidomysqlservice:3306/covidodb"
+  
